@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package lock;
+
+service Hello{
+    rpc Lock(RequestTime) returns (stream ReplyTime){}
+
+    rpc Echo(RequestStr) returns (ReplyStr){}
+}
+
+message RequestTime{
+    string message = 1;
+}
+
+message ReplyTime{
+    string message = 1;
+}
+
+message RequestStr{
+    string message = 1;
+}
+
+message ReplyStr{
+    string message = 1;
+}
