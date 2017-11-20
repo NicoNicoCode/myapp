@@ -95,4 +95,4 @@ MyApp
     I1120 06:06:39.667621       1 default.go:184] client's ip:10.233.75.39
     2017/11/20 06:06:39 [D] [server.go:2568] |  192.168.34.52| 200 |  38.372187ms|   match| GET      /user/profile   r:/user/profile
 
-[kubectl常用命令(指引6)](https://github.com/NicoNicoCode/myapp/kubectl_command.md)
+[kubectl常用命令(指引6)](https://github.com/NicoNicoCode/myapp/blob/master/kubectl_command.md)
