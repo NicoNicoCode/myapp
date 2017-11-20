@@ -81,17 +81,13 @@
     </div>
   </header>
   <footer>
-    <div class="author">
-	  User Agent:
-	  <a href="{{.UserAgent}}">{{.UserAgent}} <br/>
-	  User Ip:
-	  <a href="{{.Ip}}">{{.Ip}} <br/>
-	  Host Name:
-	  <a href="{{.Name}}">{{.Name}}
-    </div>
   </footer>
   <div class="backdrop"></div>
 
   <script src="/static/js/reload.min.js"></script>
+  <div style="position: absolute;bottom:10px;right:10px;">
+  {{.Oem}}
+  {{.Version}}
+  </div>
 </body>
 </html>

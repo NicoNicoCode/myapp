@@ -1,5 +1,6 @@
 FROM 196e0ce0c9fb
 
-RUN mkdir /root/myapp
+ENV OEM myapp
+ENV VER 0.2.0
 
-COPY ./ /root/myapp
+COPY . /
